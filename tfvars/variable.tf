@@ -1,5 +1,5 @@
 variable  "instances" {
-  type = map(any)
+  type = map
 }
 
 variable "domain_name" {
@@ -7,7 +7,7 @@ variable "domain_name" {
 }
 
 variable "zone_id" {
-  default = "Z07026951IZYV04HDC3NF"
+  default = "Z00280343M1NSFAEBLQAW"
 }
 
 variable "common_tags" {
@@ -18,9 +18,9 @@ variable "common_tags" {
 }
 
 variable "tags" {
-  type = map(any)
+  type = map
 }
 
 variable "environment" {
-
+  
 }
