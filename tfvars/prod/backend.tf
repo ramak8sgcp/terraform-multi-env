@@ -1,5 +1,5 @@
 
-bucket = "81s-remote-state-rama-prod"
+bucket = "81s-remote-state-prod-rama"
 key = "tfvars-demo-prod"
 region  = "us-east-1"
-dynamodb_table  = "81s-locking-prod"  
+dynamodb_table  = "81s-locking-prod-rama"  
